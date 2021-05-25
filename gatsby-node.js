@@ -44,32 +44,6 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
   const homePage = path.resolve("./src/templates/home.jsx");
 
-  // Get a full list of markdown posts
-  const markdownQueryResult = await graphql(`
-    {
-      allMarkdownRemark {
-        edges {
-          node {
-            fields {
-              slug
-            }
-            frontmatter {
-              title
-              tags
-              category
-              date
-            }
-          }
-        }
-      }
-    }
-  `);
-
-  if (markdownQueryResult.errors) {
-    console.error(markdownQueryResult.errors);
-    throw markdownQueryResult.errors;
-  }
-
   // Create home page
   createPage({
     path: `/`,
