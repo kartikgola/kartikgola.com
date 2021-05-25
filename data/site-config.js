@@ -1,14 +1,14 @@
 const config = {
-  siteTitle: "kartikgola.com", // Site title.
-  siteTitleShort: "kartikgola.com", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "kartikgola.com", // Alternative site title for SEO.,
+  siteTitle: "Kartik Gola", // Site title.
+  siteTitleShort: "Kartik Gola", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: "Kartik Gola", // Alternative site title for SEO.,
   siteLogo: "/logos/logo-500.png", // Logo used for SEO and manifest.
   siteProfilePicture: "/img/kartikgola.jpg",
   siteUrl: "https://kartikgola.com", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Kartik Gola", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
-  siteRssTitle: "Kartik GOla", // Title of the RSS feed
+  siteRssTitle: "Kartik Gola", // Title of the RSS feed
   siteFBAppID: "", // FB Application ID for using app insights
   googleAnalyticsID: "G-PKD2H9380R", // GA tracking ID.
   disqusShortname: "", // Disqus shortname.
