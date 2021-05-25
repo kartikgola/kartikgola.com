@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 
 export default class SocialLinks extends Component {
     render() {
@@ -8,9 +9,9 @@ export default class SocialLinks extends Component {
             <div className="flex justify-between space-x-5">
                 {
                     userLinks.map(linkInfo => (
-                        <a key={linkInfo.label} href={linkInfo.url} target="_blank">
+                        <OutboundLink key={linkInfo.label} href={linkInfo.url} target="_blank">
                             <img src={linkInfo.path} className="w-8"/>
-                        </a>
+                        </OutboundLink>
                     ))
                 }
             </div>
