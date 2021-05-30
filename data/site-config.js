@@ -3,7 +3,7 @@ const config = {
   siteTitleShort: "Kartik Gola", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Kartik Gola", // Alternative site title for SEO.,
   siteLogo: "/logos/logo-500.png", // Logo used for SEO and manifest.
-  siteProfilePicture: "/img/kartikgola.jpg",
+  siteProfilePicture: "/img/kartikgola.png",
   siteUrl: "https://kartikgola.com", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Kartik Gola", // Website description used for RSS feeds/meta description tag.
@@ -38,11 +38,6 @@ const config = {
       label: "Twitter",
       path: "/logos/social/Twitter.svg",
       url: "https://twitter.com/iamkartikgola"
-    },
-    {
-      label: "Email",
-      path: "/logos/social/Email.svg",
-      url: "mailto:krtkgla@gmail.com"
     },
   ],
   copyright: "© kartikgola.com | 2021", // Copyright string for the footer of the website and RSS feed.
