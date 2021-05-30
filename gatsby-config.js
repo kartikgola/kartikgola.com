@@ -105,7 +105,8 @@ module.exports = {
             sizes: "500x500",
             type: "image/png"
           }
-        ]
+        ],
+        cache_busting_mode: "name"
       }
     },
     {
