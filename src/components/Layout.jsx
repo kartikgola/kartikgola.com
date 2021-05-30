@@ -11,7 +11,7 @@ export default class Layout extends Component {
   render() {
     const { children } = this.props;
     return (
-      <div className="bg-gradient-to-r from-green-400 to-blue-500 mx-auto">
+      <div className="bg-gradient-to-b from-red-300 via-green-400 to-blue-500 mx-auto">
         <Helmet>
           <meta name="description" content={config.siteDescription} />
           <html lang="en" />
