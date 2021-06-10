@@ -10,7 +10,7 @@ const config = {
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssTitle: "Kartik Gola", // Title of the RSS feed
   siteFBAppID: "", // FB Application ID for using app insights
-  googleAnalyticsID: "UA-167858369-2", // GA tracking ID.
+  googleAnalytics4Tag: "G-PDDN115SR6", // GA tracking ID.
   disqusShortname: "", // Disqus shortname.
   dateFromFormat: "DD-MM-YYYY", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.

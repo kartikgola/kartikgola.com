@@ -20,14 +20,13 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: "gatsby-plugin-google-gtag",
       options: {
-        // The property ID; the tracking code won't be generated without it
-        trackingId: config.googleAnalyticsID,
-        // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: true,
-        // Setting this parameter is optional
-        anonymize: true
+        trackingId: config.googleAnalytics4Tag,
+        pluginConfig: {
+          head: true,
+          anonymize_ip: true,
+        }
       }
     },
     "gatsby-plugin-react-helmet",

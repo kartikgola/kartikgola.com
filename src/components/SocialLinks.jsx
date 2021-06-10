@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { OutboundLink } from "gatsby-plugin-google-analytics";
+import { OutboundLink } from "gatsby-plugin-google-gtag";
 
 export default class SocialLinks extends Component {
     render() {
