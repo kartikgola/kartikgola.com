@@ -4,7 +4,7 @@ import React, { Component } from "react";
 
 import Footer from "./Footer";
 import Nav from "./Nav";
-import config from "../../data/site-config";
+import config from "../../site-config";
 import SEO from "./SEO";
 
 export default class Layout extends Component {

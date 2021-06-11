@@ -1,6 +1,6 @@
 const urljoin = require("url-join");
 const path = require("path");
-const config = require("./data/site-config");
+const config = require("./site-config");
 
 module.exports = {
   pathPrefix: config.pathPrefix === "" ? "/" : config.pathPrefix,
@@ -22,10 +22,11 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-gtag",
       options: {
-        trackingId: config.googleAnalytics4Tag,
+        trackingIds: [config.googleAnalytics4Tag],
         pluginConfig: {
           head: true,
           anonymize_ip: true,
+          respectDNT: true
         }
       }
     },

@@ -2,7 +2,7 @@
 const path = require("path");
 const _ = require("lodash");
 const moment = require("moment");
-const siteConfig = require("./data/site-config");
+const siteConfig = require("./site-config");
 
 // onCreateNode: Called by Gatsby on each node creation
 exports.onCreateNode = ({ node, actions, getNode }) => {

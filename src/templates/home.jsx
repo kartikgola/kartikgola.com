@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 
 import Layout from "../components/Layout";
-import config from "../../data/site-config";
+import config from "../../site-config";
 import UserInfo from "../components/UserInfo";
 
 export default class Home extends React.Component {
