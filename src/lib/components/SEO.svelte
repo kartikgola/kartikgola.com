@@ -1,7 +1,7 @@
 <script>
 	export let title = 'Kartik Gola - Personal Blog';
-	export let description = 'Personal blog and portfolio of Kartik Gola - Software developer, tech enthusiast, and occasional blogger';
-	export let keywords = 'Kartik Gola, software developer, web development, programming, blog, tech';
+	export let description = 'Personal blog and portfolio of Kartik Gola - Software engineer, tech enthusiast, and occasional blogger';
+	export let keywords = 'Kartik Gola, software engineer, backend, programming, blog, tech';
 	export let image = 'https://kartikgola.com/og-image.jpg';
 	export let url = 'https://kartikgola.com';
 	export let type = 'website';

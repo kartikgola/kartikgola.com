@@ -2,7 +2,7 @@
 export const SITE_CONFIG = {
 	title: 'Kartik Gola',
 	author: 'Kartik Gola',
-	description: 'Personal blog and portfolio of Kartik Gola - Software developer, tech enthusiast, and occasional blogger.',
+	description: 'Personal blog and portfolio of Kartik Gola - Software engineer, tech enthusiast, and occasional blogger.',
 	url: 'https://kartikgola.com',
 	email: 'hello@kartikgola.com',
 	github: {
@@ -20,14 +20,14 @@ export const SITE_CONFIG = {
 // Page-specific metadata
 export const PAGE_META = {
 	home: {
-		title: `${SITE_CONFIG.title} - Software Developer & Blogger`,
+		title: `${SITE_CONFIG.title} - Software Engineer & Blogger`,
 		description: SITE_CONFIG.description,
-		keywords: 'Kartik Gola, software developer, web development, programming, blog, tech, javascript, python, svelte'
+		keywords: 'Kartik Gola, software engineer, web development, programming, blog, tech, javascript, python, svelte'
 	},
 	about: {
-		title: `About ${SITE_CONFIG.title} - Software Developer`,
-		description: `Learn about ${SITE_CONFIG.author}, a passionate software developer with expertise in web development, modern frameworks, and technical writing.`,
-		keywords: `about ${SITE_CONFIG.author}, software developer, web developer, programmer, skills, experience`
+		title: `About ${SITE_CONFIG.title} - Software Engineer`,
+		description: `Learn about ${SITE_CONFIG.author}, a passionate software engineer with expertise in web development, modern frameworks, and technical writing.`,
+		keywords: `about ${SITE_CONFIG.author}, software engineer, web developer, programmer, skills, experience`
 	},
 	posts: {
 		title: `All Posts - ${SITE_CONFIG.title}`,
