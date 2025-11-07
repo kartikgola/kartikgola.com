@@ -1,5 +1,11 @@
 User-agent: *
-Disallow: */tags/
-Disallow: */categories/
+Allow: /
 
-sitemap: https://gatsby-advanced-starter-demo.netlify.com/sitemap.xml
+# Sitemaps
+Sitemap: https://kartikgola.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow admin or private areas (none currently)
+# Disallow: /admin/
